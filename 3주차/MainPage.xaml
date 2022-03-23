@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp1.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Test1"
+                   TextColor="Red"
+                   BackgroundColor="Yellow"
+                   FontSize="50"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Start" />
+            <Label Text="Test2"
+                   TextColor="Black"
+                   BackgroundColor="Yellow"
+                   FontSize="100"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center" />
+            <Label Text="Test3"
+                   TextColor="Green"
+                   BackgroundColor="Yellow"
+                   FontSize="200"
+                VerticalOptions="EndAndExpand" 
+                HorizontalOptions="EndAndExpand" />            
+        </StackLayout> 
+
+        <!-- 
+        <AbsoluteLayout>
+            <Label Text="임베디드시스템공학과"
+                   TextColor ="Red"
+                   FontSize="100"
+                   AbsoluteLayout.LayoutBounds="0, 0, 900, 200"/>
+            <Label Text="201701722"
+                   TextColor ="Blue"
+                   FontSize="100"
+                   AbsoluteLayout.LayoutBounds="1000, 100, 600, 200"/>
+            <Label Text="강준영"
+                   TextColor ="Green"
+                   FontSize="100"
+                   AbsoluteLayout.LayoutBounds="1320, 880, 600, 200"/>            
+        </AbsoluteLayout>
+        -->
+    </ContentPage.Content>
+</ContentPage>
