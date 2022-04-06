@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp6.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" Spacing="-50">
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" /-->
+
+            <Label Text="E1" BackgroundColor ="Green"/>
+            <Label Text="Embedded Systems Engineering 2" BackgroundColor ="Green"/>
+            <Label Text="E3" BackgroundColor ="Green"/>
+            <Label Text="Embedded Systems Engineering 4" BackgroundColor ="Green"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
