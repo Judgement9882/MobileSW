@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+    <!--- 기본틀-->    
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+            <Label Text="Embedded1" BackgroundColor="Green"
+                HorizontalOptions="Start" />
+            <Label Text="Embedded2" BackgroundColor="Green"
+                HorizontalOptions="Center"/>
+            <Label Text="Embedded3" BackgroundColor="Green"
+                HorizontalOptions="End" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+    
+<!--크기를 바꾸면 어떻게 될까?-->
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+            <Label Text="Embedded1" BackgroundColor="Green"
+                HorizontalOptions="Start" FontSize="50"/>
+            <Label Text="Embedded2" BackgroundColor="Green"
+                HorizontalOptions="Center" FontSize="30"/>
+            <Label Text="Embedded3" BackgroundColor="Green"
+                HorizontalOptions="End" FontSize="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+<!--Embedded3의 크기가 가장 크고, 나머지는 그 범위 내에서 start, center에 위치한다-->
+    
+<!--가로축으로 쌓이는 걸 확인해보자-->
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <Label Text="Embedded1" BackgroundColor="Green"
+                VerticalOptions="Start" FontSize="50"/>
+            <Label Text="Embedded2" BackgroundColor="Green"
+                VerticalOptions="Center" FontSize="30"/>
+            <Label Text="Embedded3" BackgroundColor="Green"
+                VerticalOptions="End" FontSize="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+    
+    
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <Label Text="BigString" BackgroundColor="Red"
+                   FontSize="250"/>
+            <Label Text="Embedded1" BackgroundColor="Green"
+                VerticalOptions="Start" FontSize="50"/>
+            <Label Text="Embedded2" BackgroundColor="Green"
+                VerticalOptions="Center" FontSize="30"/>
+            <Label Text="Embedded3" BackgroundColor="Green"
+                VerticalOptions="End" FontSize="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+<!--Layout의 vertical options을 빼보자-->
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="BigString" BackgroundColor="Red"
+                   FontSize="250"/>
+            <Label Text="Embedded1" BackgroundColor="Green"
+                VerticalOptions="Start" FontSize="50"/>
+            <Label Text="Embedded2" BackgroundColor="Green"
+                VerticalOptions="Center" FontSize="30"/>
+            <Label Text="Embedded3" BackgroundColor="Green"
+                VerticalOptions="End" FontSize="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+    
+    <!--bigString에 vertical start 옵션 추가-->
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" >
+            <Label Text="BigString" BackgroundColor="Red"
+                   FontSize="250" VerticalOptions="Start"/>
+            <Label Text="Embedded1" BackgroundColor="Green"
+                VerticalOptions="Start" FontSize="50"/>
+            <Label Text="Embedded2" BackgroundColor="Green"
+                VerticalOptions="Center" FontSize="30"/>
+            <Label Text="Embedded3" BackgroundColor="Green"
+                VerticalOptions="End" FontSize="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+    <!--중첩된 레이아웃-->
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Start" BackgroundColor="Red"
+                   FontSize="200" HorizontalOptions="Center"/>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Embedded1" BackgroundColor="Green"
+                    HorizontalOptions="Start" FontSize="50"/>
+                <Label Text="Embedded2" BackgroundColor="Green"
+                    HorizontalOptions="Center" FontSize="30"/>
+                <Label Text="Embedded3" BackgroundColor="Green"
+                    HorizontalOptions="End" FontSize="100"/>
+            </StackLayout>
+
+            <Label Text="End" BackgroundColor="Purple"
+                   FontSize="200" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+    <!--TextAlignment 를 이용해 글자 위치를 제어해보자-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Start" BackgroundColor="Red"
+                   FontSize="200" HorizontalTextAlignment="Center"/>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Embedded1" BackgroundColor="Green"
+                    HorizontalOptions="Start" FontSize="50"/>
+                <Label Text="Embedded2" BackgroundColor="Green"
+                    HorizontalOptions="Center" FontSize="30"/>
+                <Label Text="Embedded3" BackgroundColor="Green"
+                    HorizontalOptions="End" FontSize="100"/>
+            </StackLayout>
+
+            <Label Text="End" BackgroundColor="Purple"
+                   FontSize="200" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
