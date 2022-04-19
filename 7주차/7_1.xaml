@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp_7.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="EM-1" BackgroundColor="Green"
+                   FontSize="200" />
+            <Label Text="EM-2" BackgroundColor="Green"
+                   FontSize="200" />
+            <StackLayout Orientation="Vertical">
+                <Label Text="EM-3" BackgroundColor="Green"
+                    HorizontalOptions="Start" />
+                <Label Text="EM-4" BackgroundColor="Green"
+                    HorizontalOptions="Start" />
+                <Label Text="EM-5" BackgroundColor="Green"
+                    HorizontalOptions="Start" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
