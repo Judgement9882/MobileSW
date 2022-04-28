@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp9.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Embedded1" BackgroundColor="Green" VerticalOptions ="Start" HorizontalOptions="Center"/>
+            <Label Text="Embedded2" BackgroundColor="Green" VerticalOptions ="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+    
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp9.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Start" FontSize="100" BackgroundColor="Blue"
+                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="BigString" BackgroundColor="Red" FontSize="200"/>
+                <Label Text="Em1" BackgroundColor="Green" VerticalOptions="Start"/>
+                <Label Text="Embedded2" BackgroundColor="Green" VerticalOptions="Center"/>
+                <Label Text="Em3" BackgroundColor="Green" VerticalOptions="End"/>
+                <Label Text="Fill~~" BackgroundColor="Green" VerticalOptions="Fill"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp9.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="BigString" BackgroundColor="Red" FontSize="200"/>
+            <Label Text="Em1" BackgroundColor="Green" VerticalOptions="Start"/>
+            <Label Text="Embedded2" BackgroundColor="Green" VerticalOptions="Center"/>
+            <Label Text="Em3" BackgroundColor="Green" VerticalOptions="End"/>
+            <Label Text="Fill~~" BackgroundColor="Green" VerticalOptions="Fill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp9.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Embedded1" BackgroundColor="Green" HorizontalOptions="Start"/>
+            <Label Text="Embedded2" BackgroundColor="Green" HorizontalOptions="Center"/>
+            <Label Text="Embedded3" BackgroundColor="Green" HorizontalOptions="End"/>
+            <Label Text="Fill~~" BackgroundColor="Green" HorizontalOptions="Fill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+<!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp9.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Embedded1" BackgroundColor="Green" VerticalOptions ="FillAndExpand" HorizontalOptions="Fill"/>
+            <Label Text="Embedded2" BackgroundColor="Green" VerticalOptions ="FillAndExpand" HorizontalOptions="Fill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
