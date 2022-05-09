@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp10.MainPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="fireworks.png" 
+                   AbsoluteLayout.LayoutBounds="0,0,100,100">
+            </Image>
+
+            <Image Source="fireworks.png" 
+                   AbsoluteLayout.LayoutBounds="850,400,200,200">
+            </Image>
+
+            <Image Source="fireworks.png" 
+                   AbsoluteLayout.LayoutBounds="1620,780,300,300">
+            </Image>
+            
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+    
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp10.MainPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="fireworks.png" 
+                   AbsoluteLayout.LayoutBounds="0,0,1920,1080">
+            </Image>
+
+            <Image Source="fireworks.png" 
+                   AbsoluteLayout.LayoutBounds="850,400,300,300">
+            </Image>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+    
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp10.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start"
+                   WidthRequest="1000"
+                   HeightRequest="100"/>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                    WidthRequest="1000"
+                   HeightRequest="100"/>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="End" 
+                   HorizontalOptions="End"
+                   WidthRequest="1000"
+                   HeightRequest="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+    
+    
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp10.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start"
+                   WidthRequest="1000"
+                   HeightRequest="100"/>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                    WidthRequest="1000"
+                   HeightRequest="100"/>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="End" 
+                   HorizontalOptions="End"
+                   WidthRequest="1000"
+                   HeightRequest="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+    
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp10.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Start"/>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"/>
+            <Image Source="fireworks.png" 
+                   VerticalOptions="End" 
+                   HorizontalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
