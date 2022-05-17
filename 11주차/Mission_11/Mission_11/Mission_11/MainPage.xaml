@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mission_11.MainPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="wall.jpg" AbsoluteLayout.LayoutBounds="0, 0, 1920, 1080"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="60, 60, 610, 1010"/>
+            <BoxView Color="White" AbsoluteLayout.LayoutBounds="70, 70, 580, 980"/>
+            <BoxView Color="Orange" AbsoluteLayout.LayoutBounds="70, 70, 580, 90"/>
+
+            <Image Source="f5.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="540, 80, 70, 70"/>
+
+            <Image Source="1.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 80, 60, 60"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="120, 160, 510, 2"/>
+            <Image Source="2.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 200, 80, 80"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="120, 310, 510, 2"/>
+            <Image Source="3.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 350, 80, 80"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="120, 460, 510, 2"/>
+            <Image Source="4.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 500, 80, 80"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="120, 610, 510, 2"/>
+            <Image Source="5.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 650, 80, 80"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="120, 760, 510, 2"/>
+            <Image Source="6.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 800, 80, 80"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="120, 910, 510, 2"/>
+            <Image Source="7.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 950, 80, 80"/>
+
+            <Image Source="heart.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="550, 200, 60, 60"/>
+            <Image Source="heart.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="550, 350, 60, 60"/>
+            <Image Source="heart.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="550, 500, 60, 60"/>
+            <Image Source="heart.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="550, 650, 60, 60"/>
+            <Image Source="heart.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="550, 800, 60, 60"/>
+            <Image Source="heart.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="550, 950, 60, 60"/>
+            
+            <Label Text="in East Harlem" AbsoluteLayout.LayoutBounds="200, 80, 400, 100" FontSize="30" TextColor="White"></Label>
+            <Label Text="Assembly 3.0" AbsoluteLayout.LayoutBounds="200, 200, 400, 100" FontSize="30" TextColor="Orange"></Label>
+            <Label Text="Voxer" AbsoluteLayout.LayoutBounds="200, 350, 400, 100" FontSize="30" TextColor="Orange"></Label>
+            <Label Text="Roxy/NOD" AbsoluteLayout.LayoutBounds="200, 500, 400, 100" FontSize="30" TextColor="Orange"></Label>
+            <Label Text="Brno hlavni nadrazi" AbsoluteLayout.LayoutBounds="200, 650, 400, 100" FontSize="30" TextColor="Orange"></Label>
+            <Label Text="The Mill" AbsoluteLayout.LayoutBounds="200, 800, 400, 100" FontSize="30" TextColor="Orange"></Label>
+            <Label Text="MassVentures" AbsoluteLayout.LayoutBounds="200, 950, 400, 100" FontSize="30" TextColor="Orange"></Label>
+
+            <Label Text="7m" AbsoluteLayout.LayoutBounds="570, 270, 400, 100" FontSize="20" TextColor="Gray"></Label>
+            <Label Text="12m" AbsoluteLayout.LayoutBounds="570, 420, 400, 100" FontSize="20" TextColor="Gray"></Label>
+            <Label Text="25m" AbsoluteLayout.LayoutBounds="570, 570, 400, 100" FontSize="20" TextColor="Gray"></Label>
+            <Label Text="40m" AbsoluteLayout.LayoutBounds="570, 720, 400, 100" FontSize="20" TextColor="Gray"></Label>
+            <Label Text="1h" AbsoluteLayout.LayoutBounds="570, 870, 400, 100" FontSize="20" TextColor="Gray"></Label>
+            
+
+
+
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="800, 60, 610, 1010"/>
+            <Image Source="image1.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="820, 170, 570, 700"/>
+
+            <BoxView Color="White" AbsoluteLayout.LayoutBounds="900, 530, 460, 4"/>
+            <BoxView Color="White" AbsoluteLayout.LayoutBounds="900, 630, 460, 4"/>
+            <BoxView Color="White" AbsoluteLayout.LayoutBounds="900, 730, 460, 4"/>
+
+
+
+            <Label Text="Flaty's" AbsoluteLayout.LayoutBounds="970, 200, 400, 200" FontSize="100" TextColor="White" FontAttributes="Bold, Italic"></Label>
+            <Label Text="Username" AbsoluteLayout.LayoutBounds="900, 450, 400, 100" FontSize="30" TextColor="White"></Label>
+            <Label Text="Email Address" AbsoluteLayout.LayoutBounds="900, 550, 400, 100" FontSize="30" TextColor="White"></Label>
+            <Label Text="Password" AbsoluteLayout.LayoutBounds="900, 650, 400, 100" FontSize="30" TextColor="White"></Label>
+
+            <BoxView Color="SkyBlue" AbsoluteLayout.LayoutBounds="900, 770, 410, 60"/>
+            <BoxView Color="Blue" AbsoluteLayout.LayoutBounds="900, 840, 410, 60"/>
+
+            <Image Source="face.png" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="910, 850, 60, 50"/>
+
+            <Label Text="Sign up" AbsoluteLayout.LayoutBounds="1050, 780, 400, 100" FontSize="25" TextColor="White"></Label>
+
+            <Label Text="log in with Facebook" AbsoluteLayout.LayoutBounds="1000, 850, 400, 100" FontSize="25" TextColor="White"></Label>
+            <Label Text="Or click here to go sign up using your email address" AbsoluteLayout.LayoutBounds="900, 950, 600, 100" FontSize="17" TextColor="White"></Label>
+            <BoxView Color="White" AbsoluteLayout.LayoutBounds="900, 980, 460, 4"/>
+            
+            
+            
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

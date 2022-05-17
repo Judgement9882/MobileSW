@@ -1,0 +1,12 @@
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\bin\Debug\tizen60\Mission_11.Tizen.deps.json
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\bin\Debug\tizen60\Mission_11.Tizen.dll
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\bin\Debug\tizen60\Mission_11.Tizen.pdb
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\bin\Debug\tizen60\Mission_11.dll
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\bin\Debug\tizen60\Mission_11.pdb
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\obj\Debug\tizen60\Mission_11.Tizen.csprojAssemblyReference.cache
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\obj\Debug\tizen60\Mission_11.Tizen.AssemblyInfoInputs.cache
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\obj\Debug\tizen60\Mission_11.Tizen.AssemblyInfo.cs
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\obj\Debug\tizen60\Mission_11.Tizen.csproj.CoreCompileInputs.cache
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\obj\Debug\tizen60\Mission_11.Tizen.csproj.CopyComplete
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\obj\Debug\tizen60\Mission_11.Tizen.dll
+C:\Users\kmmjj\source\repos\Mission_11\Mission_11\Mission_11.Tizen\obj\Debug\tizen60\Mission_11.Tizen.pdb
