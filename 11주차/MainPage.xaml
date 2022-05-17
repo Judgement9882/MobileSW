@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--세번째예제(액자)-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp11.MainPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="wall.jpg" AbsoluteLayout.LayoutBounds="0, 0, 1920, 1080"/>
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="70, 70, 660, 660"/>
+            <Image Source="image1.jpg" 
+                   Aspect="AspectFill" 
+                   AbsoluteLayout.LayoutBounds="100, 100, 600, 600"/>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+    <!--
+<?xml version="1.0" encoding="utf-8" ?>
+두번째예제(큰게 겹침)
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp11.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="icon.png" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Center" 
+                   BackgroundColor="Red"/>
+            <Label Text="Welcome!" 
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="Yellow"/>
+            <Image Source="icon.png" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Center" 
+                   WidthRequest="50" 
+                   HeightRequest="100"
+                   Rotation="30"
+                   BackgroundColor="Green"/>
+            <AbsoluteLayout>
+                <Image Source="icon.png" 
+                       AbsoluteLayout.LayoutBounds="700,0,300,300"
+                       Rotation="30"/>
+                <Image Source="icon.png" 
+                       AbsoluteLayout.LayoutBounds="0,0,1920,1080"/>
+                <Image Source="icon.png" 
+                       AbsoluteLayout.LayoutBounds="1020,0,300,300"
+                       Rotation="30"/>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
+
+    <!--기본 예제-->
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp11.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="icon.png" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Center" 
+                   WidthRequest="300" 
+                   HeightRequest="100"
+                   BackgroundColor="Red"/>
+            <Label Text="Welcome!" 
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   BackgroundColor="Yellow"/>
+            <Image Source="icon.png" 
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Center" 
+                   WidthRequest="300" 
+                   HeightRequest="100"
+                   BackgroundColor="Green"/>
+            <AbsoluteLayout>
+                <Image Source="icon.png" 
+                       AbsoluteLayout.LayoutBounds="0,400,800,800" 
+                       BackgroundColor="Pink"/>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>-->
