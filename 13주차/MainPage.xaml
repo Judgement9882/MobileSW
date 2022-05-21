@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlApp13.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                x:Name="label1"
+                Text="HEllo Hello!"
+                TextColor="Red"
+                FontSize="200"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label
+                x:Name="label2"
+                Text="World World!"
+                TextColor="Red"
+                FontSize="200"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Image 
+                Source="image1.jpg" 
+                x:Name="background_img"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
