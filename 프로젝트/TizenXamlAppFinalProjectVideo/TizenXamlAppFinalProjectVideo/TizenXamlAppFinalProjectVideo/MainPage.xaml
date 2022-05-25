@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TizenXamlAppFinalProjectVideo.MainPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <!--배경-->
+            <Image x:Name="background_image" 
+                   Source="background_image0.jpg" 
+                   AbsoluteLayout.LayoutBounds="0, 0, 1920, 1080"/>
+            
+            <!--디지털시계-->
+            <StackLayout x:Name="digital_clock" 
+                            Orientation="Vertical" 
+                            AbsoluteLayout.LayoutBounds="550, 350, 1000, 600">
+                <StackLayout x:Name="hhmmss" Orientation="Horizontal">
+                    <Label x:Name="hour" 
+                            FontAttributes="Bold" 
+                            FontSize="200" 
+                            VerticalOptions="End" 
+                            HorizontalOptions="Center" 
+                            TextColor="White"/>
+                    <Label x:Name="first_colon" 
+                            Text =":" 
+                            FontSize="200" 
+                            VerticalOptions="End" 
+                            HorizontalOptions="Center" 
+                            TextColor="White"/>
+                    <Label x:Name="minute" 
+                            FontAttributes="Bold" 
+                            FontSize="200" 
+                            VerticalOptions="End" 
+                            HorizontalOptions="Center" 
+                            TextColor="White"/>
+                    <Label x:Name="second_colon" 
+                            Text =":" 
+                            FontSize="200" 
+                            VerticalOptions="End" 
+                            HorizontalOptions="Center" 
+                            TextColor="White"/>
+                    <Label x:Name="second" 
+                            FontSize="100" 
+                            VerticalOptions="End" 
+                            HorizontalOptions="Center" 
+                            TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout AbsoluteLayout.LayoutBounds="0, 600, 1920, 300">
+                <Label x:Name="date" 
+                        FontSize="80" 
+                        VerticalOptions="Center" 
+                        HorizontalOptions="CenterAndExpand" 
+                        TextColor="White" 
+                        HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="1500, 0, 350, 1000">
+                <!--아날로그 시계-->
+                <Image Source="analog_clock_back.png" AbsoluteLayout.LayoutBounds="0, 0, 350, 350"></Image>
+                <BoxView x:Name="analog_second"
+                            AnchorY="0"
+                            AbsoluteLayout.LayoutBounds="175, 175, 10, 140"
+                            Color="White"/>
+                <BoxView x:Name="analog_minute"
+                            AnchorY="0"
+                            AbsoluteLayout.LayoutBounds="175, 175, 10, 120"
+                            Color="Gray"/>
+                <BoxView x:Name="analog_hour"
+                            AnchorY="0"
+                            AbsoluteLayout.LayoutBounds="175, 175, 10, 80"
+                            Color="Red"/>
+
+                <!--날씨, 미세먼지-->
+                <StackLayout AbsoluteLayout.LayoutBounds="0, 400, 350, 600">
+                    <Image x:Name="weather_icon" WidthRequest="200" HeightRequest="200"/>
+                    <Label x:Name="UI_city" FontSize="80"  TextColor="SkyBlue" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="UI_temperature" FontSize="60" TextColor="White" HorizontalOptions ="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="UI_weather" FontSize="60" TextColor="White" HorizontalOptions ="EndAndExpand" VerticalOptions="Center"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="미세먼지 : " FontSize="60" TextColor="White" HorizontalOptions ="StartAndExpand" VerticalOptions="Center"></Label>
+                        <Label x:Name="UI_dust_condition" FontSize="60" TextColor="Red" HorizontalOptions ="EndAndExpand" VerticalOptions="Center"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </AbsoluteLayout>
+
+            <!--뉴스라인-->
+            <Label x:Name="news_line"
+                    Text="news"
+                    FontSize="60"
+                    AbsoluteLayout.LayoutBounds="0, 980, 1920, 100"
+                    TextColor="Wheat"
+            />
+
+            <!--가상화폐-->
+            <StackLayout AbsoluteLayout.LayoutBounds="10, 150, 500, 800">
+                <Image x:Name="coin_image" Source="bitcoin.png" AbsoluteLayout.LayoutBounds="0, 0, 200, 200" HorizontalOptions="Start" WidthRequest="200" HeightRequest="200"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="coin_name" 
+                           FontSize="80" 
+                           TextColor="White"
+                           VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="coin_value" 
+                           FontSize="60" 
+                           TextColor="White"
+                           VerticalOptions="CenterAndExpand"/>
+                    <Label x:Name="compare_to_yesterday"
+                           FontSize="40"
+                           VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+            
+            
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
